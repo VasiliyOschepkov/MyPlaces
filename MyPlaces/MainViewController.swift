@@ -34,10 +34,18 @@ class MainViewController: UITableViewController {
 
         cell.textLabel?.text = restauransNames[indexPath.row]
         cell.imageView?.image = UIImage(named: restauransNames[indexPath.row])
+        cell.imageView?.layer.cornerRadius = cell.frame.size.height / 2
+        cell.imageView?.clipsToBounds = true
 
         return cell
     }
  
+    // MARK: - Table view dilegate
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 85
+    }
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
