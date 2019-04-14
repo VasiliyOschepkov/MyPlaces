@@ -13,6 +13,8 @@
 		0CA5C601226212500054B585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA5C5FF226212500054B585 /* LaunchScreen.storyboard */; };
 		0CA5C609226212DE0054B585 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA5C608226212DE0054B585 /* MainViewController.swift */; };
 		0CA5C60B226234D50054B585 /* CustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA5C60A226234D50054B585 /* CustomViewCell.swift */; };
+		0CA5C60D226381560054B585 /* Plase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA5C60C226381560054B585 /* Plase.swift */; };
+		0CA5C60F226391870054B585 /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA5C60E226391870054B585 /* NewPlaceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0CA5C602226212500054B585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CA5C608226212DE0054B585 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0CA5C60A226234D50054B585 /* CustomViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewCell.swift; sourceTree = "<group>"; };
+		0CA5C60C226381560054B585 /* Plase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plase.swift; sourceTree = "<group>"; };
+		0CA5C60E226391870054B585 /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				0CA5C5F6226212500054B585 /* AppDelegate.swift */,
 				0CA5C608226212DE0054B585 /* MainViewController.swift */,
 				0CA5C60A226234D50054B585 /* CustomViewCell.swift */,
+				0CA5C60C226381560054B585 /* Plase.swift */,
+				0CA5C60E226391870054B585 /* NewPlaceViewController.swift */,
 				0CA5C5FA226212500054B585 /* Main.storyboard */,
 				0CA5C5FD226212500054B585 /* Assets.xcassets */,
 				0CA5C5FF226212500054B585 /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			files = (
 				0CA5C5F7226212500054B585 /* AppDelegate.swift in Sources */,
 				0CA5C60B226234D50054B585 /* CustomViewCell.swift in Sources */,
+				0CA5C60F226391870054B585 /* NewPlaceViewController.swift in Sources */,
 				0CA5C609226212DE0054B585 /* MainViewController.swift in Sources */,
+				0CA5C60D226381560054B585 /* Plase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
